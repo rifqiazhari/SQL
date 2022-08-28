@@ -1,3 +1,4 @@
+# ER DIAGRAM
 ![alt text](Screenshot (604).png)<br/>
 ![alt text](Screenshot (605).png)<br/>
 ![alt text](Screenshot (606).png)<br/>
