@@ -1,3 +1,9 @@
+![alt text](scsc.png)
+![alt text](scsc.png)
+![alt text](scsc.png)
+![alt text](scsc.png)
+![alt text](scsc.png)
+
 # SQL
 CREATE TABLE Employee (
     emp_id INT PRIMARY KEY,
