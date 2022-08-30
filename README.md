@@ -95,6 +95,7 @@ INSERT INTO Employee VALUES(108, 'Jim', 'Halpert', '1978-10-01', 'M', 71000, 106
 
 
 # Trigger
+![alt text](Screenshot (614).png)<br/>
 create table trigger_test(
 	message VARCHAR(100)
 );
