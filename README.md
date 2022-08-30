@@ -93,3 +93,40 @@ WHERE emp_id = 106;
 INSERT INTO Employee VALUES(107, 'Andy', 'Bernard', '1973-07-22', 'M', 65000, 106, 3);
 INSERT INTO Employee VALUES(108, 'Jim', 'Halpert', '1978-10-01', 'M', 71000, 106, 3);
 
+
+# Trigger
+create table trigger_test(
+	message VARCHAR(100)
+);
+
+DELIMITER $$
+create
+	trigger triggername before insert 
+	on employee
+	for each row begin
+		insert into trigger_test values('added new employee');
+	end$$
+DELIMITER ;
+
+insert into employee
+values(120,'Oscar', 'Martinez', '1968-02-19', 'M', 69000, 106, 3);
+
+select * from employee;
+use girrafe;
+
+select * from trigger_test ;
+
+DELIMITER $$
+create
+	trigger triggername2 before insert 
+	on employee
+	for each row begin
+		insert into trigger_test values(new.first_name);
+	end$$
+DELIMITER ;
+
+insert into employee
+values(122,'Udatna', 'Martinez', '1968-02-19', 'M', 69000, 106, 3);
+
+insert into employee
+values(123,'Mbaku', 'Martinez', '1968-02-19', 'M', 69000, 106, 3);
