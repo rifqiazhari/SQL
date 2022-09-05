@@ -29,7 +29,7 @@
 &emsp;&emsp;`client_name VARCHAR(30),`<br/>
 &emsp;&emsp;`branch_id INT,`<br/>
 &emsp;&emsp;`FOREIGN KEY(branch_id) REFERENCES Branch(branch_id) ON DELETE SET NULL`<br/>
-`);
+`);`<br/>
 
 
 `ALTER TABLE Employee`<br/>
