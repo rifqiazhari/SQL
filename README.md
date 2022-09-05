@@ -4,7 +4,7 @@
 ![alt text](Screenshot (606).png)<br/>
 ![alt text](Screenshot (607).png)<br/>
 ![alt text](Screenshot (608).png)<br/>
-![alt text](SQL/Screenshot (604).png)
+![alt text](Screenshot(604).png)<br/>
 # SQL
 CREATE TABLE Employee (
     emp_id INT PRIMARY KEY,
