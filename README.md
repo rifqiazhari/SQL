@@ -1,5 +1,5 @@
 # ER DIAGRAM
-![alt text](Screenshot (604).png)<br/>
+![alt text](Screenshot (604).png)
 ![alt text](Screenshot (605).png)<br/>
 ![alt text](Screenshot (606).png)<br/>
 ![alt text](Screenshot (607).png)<br/>
