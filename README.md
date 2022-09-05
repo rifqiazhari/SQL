@@ -94,7 +94,7 @@
 
 
 # Trigger
-![alt text](Screenshot (614).png)<br/>
+![alt text](Screenshot(614).png)<br/>
 `create table trigger_test(`<br/>
 &emsp;&emsp;`message VARCHAR(100)`<br/>
 `);`<br/>
